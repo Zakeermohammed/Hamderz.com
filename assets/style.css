@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.main_header{
+    background-color: #4B0082;
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0),rgba(255,0,0,1));
+    height: 600px;
+}
+
+
+
+.right_header a{
+    font-size: 22px;
+    font-family: 'Akaya Kanadaka', cursive;
+    /* color: #483D8B; */
+    color: #fff;
+    margin-left: 14px;
+    
+}
+
+.left_header ul{
+    display: flex;
+    float: right;
+}
+
+.left_header ul li{
+    padding: 24px;
+    
+}
+.left_header .menu li a{
+    color: #fff;
+    /* color: #483D8B; */
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.Header_parra p{
+    text-align: center;
+    font-size: 8em;
+    /* margin-top: 10px; */
+    margin: 0px;
+    padding: 0px;
+    /* color: rgba(153,50,204); */
+    color: #fff;
+    font-family: 'Ballet', cursive;
+}
+
+.Header_parra .digital_shoping{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -40px;
+    /* margin-right: 38px; */
+    padding: 0px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.header_button{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.header_button button{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 3px;
+    margin: 4px;
+    font-family:  Fantasy;
+    border: 2px #000;
+    
+}
+
+.header_button button a{
+    color: #000;
+}
+
+.header_button button a:hover{
+    color: #fff;
+}
+
+.header_button button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+/* LOGIN FORM  */
+
+.Login {
+   
+    /* background-color: rgb(224, 224, 238); */
+    background-image: url("../images/charting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(245, 243, 243);
+    text-align: center;
+    border-radius: 4px;
+    padding: 54px;
+    border: 1px solid grey;
+    box-shadow: 5px 8px 18px rgb(34, 32, 32);
+}
+
+form input{
+    margin-top: 38px;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    border-bottom: 2px solid grey;
+   
+}
+
+form button{
+    margin-top: 8px;
+   background-color: white;
+   background-image: linear-gradient(to right, rgb(192, 26, 156) , blue );
+   color: #fff;
+   border: none;
+   padding: 6px 18px;
+   border-radius: 4px;
+   font-weight: bold;
+}
+
+form .Login_button{
+    margin-top: 28px;
+}
+
+form p{
+    font-size: 14px;
+    margin-top: 18px;
+} 
+
+
+/* REGRESTRATION FORM  */
+
+body{
+    background-image: url(../images/regrestration_FORM.jpg);
+    background-size: cover;
+    /* filter: blur(); */
+}
+
+.Regrestration_form{
+    /* box-shadow: 5px 5px 15px rgb(151, 144, 144); */
+    content: "";
+    position: absolute;
+    color: #fff;
+    background: inherit;
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+}
+
+.Regrestration_form:before{
+    filter: blur(10px);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    background: inherit;
+}
+
+
+.Regrestration p{
+    font-size: 22px;
+    color: #fff;
+   
+}
+
+button a{
+    color: #fff;
+}
+
+.Login_button a{
+    text-decoration: none;
+}
